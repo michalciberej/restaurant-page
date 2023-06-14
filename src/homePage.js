@@ -1,39 +1,5 @@
 import pizza from "./img/pizza.jpg"
-
-export function createrNavBar() {
-
-    const nav = document.createElement("div")
-    nav.setAttribute("id", "nav")
-
-    const logo = document.createElement("div")
-    logo.textContent = "PIZZERIA"
-    logo.setAttribute("id", "logo")
-    nav.appendChild(logo)
-
-    const ul = document.createElement("ul")
-
-    const liOne = document.createElement("li")
-    liOne.textContent = "MENU"
-    liOne.classList.add("links")
-    liOne.setAttribute("id", "menuBtn")
-    ul.appendChild(liOne)
-
-    const liTwo = document.createElement("li")
-    liTwo.textContent = "STORY"
-    liTwo.classList.add("links")
-    liOne.setAttribute("id", "storyBtn")
-
-    ul.appendChild(liTwo)
-
-    const liThree = document.createElement("li")
-    liThree.textContent = "HOURS & LOCATION"
-    liThree.classList.add("links")
-    liOne.setAttribute("id", "halBtn")
-
-    ul.appendChild(liThree)
-    nav.appendChild(ul)
-    document.querySelector("#content").appendChild(nav)
-}
+import { resetDOM } from "./reset"
 
 export function createImgBody() {
 
