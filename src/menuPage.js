@@ -1,4 +1,4 @@
-import burger from "./img/hamburger.jpg"
+import pizzaTwo from "./img/pizzaTwo.jpg"
 import salad from "./img/salad.jpg"
 
 export function displayMenu() {
@@ -28,18 +28,214 @@ export function displayMenu() {
     saladText.classList.add("saladText")
     saladContainer.appendChild(saladText)
 
-    const foodContainer = document.createElement("div")
-    foodContainer.setAttribute("id", "foodContainer")
+    let foodContainer = document.createElement("div")
+    foodContainer.classList.add("foodContainer")
     content.appendChild(foodContainer)
 
-    const foodCells = document.createElement("div")
+    let foodCells = document.createElement("div")
     foodCells.classList.add("foodCells")
     let foodCellsHeading = document.createElement("h2")
-    foodCellsHeading.textContent = "SALAD CEZAR"
+    foodCellsHeading.textContent = "SALAD IPSUM"
     let foodCellsText = document.createElement("p")
-    foodCellsText.textContent = "Romaine salad, dressing, croutons, parmesan"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
     foodCells.appendChild(foodCellsHeading)
     foodCells.appendChild(foodCellsText)
     foodContainer.appendChild(foodCells)
 
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsHeading.textContent = "SALAD IPSUM"
+    foodCellsText = document.createElement("p")
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainer.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsHeading.textContent = "SALAD IPSUM"
+    foodCellsText = document.createElement("p")
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainer.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsHeading.textContent = "SALAD IPSUM"
+    foodCellsText = document.createElement("p")
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainer.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsHeading.textContent = "SALAD IPSUM"
+    foodCellsText = document.createElement("p")
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainer.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsHeading.textContent = "SALAD IPSUM"
+    foodCellsText = document.createElement("p")
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainer.appendChild(foodCells)
+
+    const pizzaImgContainer = document.createElement("div")
+    pizzaImgContainer.setAttribute("id", "pizzaImgContainer")
+    content.appendChild(pizzaImgContainer)
+
+    const pizzaImg = document.createElement("img")
+    pizzaImg.classList.add("pizzaImg")
+    pizzaImg.src = pizzaTwo
+    pizzaImgContainer.appendChild(pizzaImg)
+
+    const pizzaContainer = document.createElement("div")
+    pizzaContainer.classList.add("pizzaContainer")
+    pizzaImgContainer.appendChild(pizzaContainer)
+
+    const pizzaText = document.createElement("p")
+    pizzaText.textContent = "PIZZAS"
+    pizzaText.classList.add("pizzaText")
+    pizzaContainer.appendChild(pizzaText)
+
+    const foodContainerTwo = document.createElement("div")
+    foodContainerTwo.setAttribute("id", "foodContainerTwo")
+    content.appendChild(foodContainerTwo)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    foodCells = document.createElement("div")
+    foodCells.classList.add("foodCells")
+    foodCellsHeading = document.createElement("h2")
+    foodCellsText = document.createElement("p")
+    foodCellsHeading.textContent = "PIZZA IPSUM"
+    foodCellsText.textContent = "lorem, ipsum, lorem, ipsum, lorem, ipsum"
+    foodCells.appendChild(foodCellsHeading)
+    foodCells.appendChild(foodCellsText)
+    foodContainerTwo.appendChild(foodCells)
+
+    const footer = document.createElement("#div")
+    footer.setAttribute("id", "footer")
+    content.appendChild(footer)
+    
 }
