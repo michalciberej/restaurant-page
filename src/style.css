@@ -221,3 +221,23 @@ ul {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
+#storyContainer {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    height: calc(100vh - 4rem);
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+#storyHeading {
+    font-size: 4rem;
+}
+
+.storyText {
+    font-size: 1.5rem;
+}

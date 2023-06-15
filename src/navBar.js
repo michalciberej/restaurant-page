@@ -1,5 +1,6 @@
 import { resetDOM } from "./reset"
 import { displayMenu } from "./menuPage"
+import { displayStory } from "./storyPage"
 
 export function createrNavBar() {
 
@@ -32,6 +33,7 @@ export function createrNavBar() {
     liTwo.addEventListener("click", () => {
         resetDOM()
         createrNavBar()
+        displayStory()
     })
 
     const liThree = document.createElement("li")
@@ -42,6 +44,7 @@ export function createrNavBar() {
     liThree.addEventListener("click", () => {
         resetDOM()
         createrNavBar()
+        // displayHAL()
     })
     
     nav.appendChild(ul)
